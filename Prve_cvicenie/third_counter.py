@@ -10,6 +10,7 @@ class Shared:
         self.end = end
         self.array = [0] * self.end
 
+
 # With the blocked local variable temp, which stores the current index value in the array,
 # we fill the array with only 1 thread at a time, which writes its value into this variable.
 def counter(shared, mutex):
