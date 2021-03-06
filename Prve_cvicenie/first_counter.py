@@ -1,21 +1,30 @@
-# The first multi-threading solution using a Mutex object
-# The first solution is to block two threads from using the function at the same time.
-# Not the most effective option, but it works.
+"""
+The first multi-threading solution using a Mutex object
+The first solution is to block two threads from using the function
+at the same time.
+Not the most effective option, but it works.
+"""
 from fei.ppds import Thread, Mutex
 from time import time
 
 
-# Creating object that will be shared between threads
 class Shared:
+    """
+    Creating object that will be shared between threads
+    """
+
     def __init__(self, end):
         self.counter = 0
         self.end = end
         self.array = [0] * self.end
 
 
-# Function which fills 1 array with 2 threads
 def counter(shared, mutex):
-    # In the beginning of function close it for changes of another thread.
+    """
+    Function which fills 1 array with 2 threads
+    """
+    # In the beginning of function close it for changes of another
+    # thread.
     mutex.lock()
     while True:
         if shared.counter >= shared.end:
@@ -26,8 +35,10 @@ def counter(shared, mutex):
     # At the end we unlock access to function
 
 
-# Additional class for tracking the state of the array values
 class Histogram(dict):
+    """
+    Additional class for tracking the state of the array values.
+    """
     def __init__(self, seq=[]):
         super().__init__()
         for item in seq:
@@ -44,7 +55,10 @@ start_time = current_milli_time()
 # Creating a locking object
 mutex = Mutex()
 
-# In the loop, we start filling millionth array with 2 threads and display state of the array
+"""
+In the loop, we start filling millionth array with 2 threads and display 
+state of the array.
+"""
 for i in range(10):
     shared = Shared(1_000_000)
     t1 = Thread(counter, shared, mutex)

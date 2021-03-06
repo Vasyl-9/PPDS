@@ -1,5 +1,8 @@
-# The second way of filling array with 2 threads. During local testing this variant was the fastest.
-# A detailed description of the program is in the first version
+"""
+The second way of filling array with 2 threads. During local
+testing this variant was the fastest.
+A detailed description of the program is in the first version.
+"""
 from time import time
 from fei.ppds import Thread, Mutex
 
@@ -11,10 +14,13 @@ class Shared:
         self.array = [0] * self.end
 
 
-# In this case, we are blocking only filling each element of the array.
-# This is the fastest way to lock because the array is filled with two threads,
-# but they do not conflict with each other because each thread fills the other element
 def counter(shared, mutex):
+    """
+    In this case, we are blocking only filling each element of the
+    array. This is the fastest way to lock because the array is filled
+    with two threads, but they do not conflict with each other because
+    each thread fills the other element.
+    """
     while True:
         mutex.lock()
         if shared.counter >= shared.end:
