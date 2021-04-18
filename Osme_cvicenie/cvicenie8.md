@@ -27,44 +27,44 @@ vypočítame dobu trvania behu programu
  ```text
 Database opened successfully
 -------------------------------
-(1, 'Lord of Rings 1)                                                                                                                                                                                                                                            ', 2)
-(3, 'Typescript quickly)                                                                                                                                                                                                                                         ', 2)
-(7, 'Pro Angular 9)                                                                                                                                                                                                                                              ', 2)
-(4, 'Java from EPAM)                                                                                                                                                                                                                                             ', 4)
-(5, 'Java 9 Dependency Injection)                                                                                                                                                                                                                                ', 5)
-(6, 'Mastering Java 11)                                                                                                                                                                                                                                          ', 7)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                       ', 11)
-(9, 'Angular In Action)                                                                                                                                                                                                                                          ', 4)
-(10, 'Learning Angular)                                                                                                                                                                                                                                           ', 9)
-(4, 'Java from EPAM)                                                                                                                                                                                                                                             ', 4)
-(9, 'Angular In Action)                                                                                                                                                                                                                                          ', 4)
-(5, 'Java 9 Dependency Injection)                                                                                                                                                                                                                                ', 5)
-(6, 'Mastering Java 11)                                                                                                                                                                                                                                          ', 7)
-(10, 'Learning Angular)                                                                                                                                                                                                                                           ', 9)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                       ', 11)
-(1, 'Lord of Rings 1)                                                                                                                                                                                                                                            ', 2)
-(3, 'Typescript quickly)                                                                                                                                                                                                                                         ', 2)
-(7, 'Pro Angular 9)                                                                                                                                                                                                                                              ', 2)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                       ', 11)
-(1, 'Lord of Rings 1)                                                                                                                                                                                                                                            ', 2)
-(3, 'Typescript quickly)                                                                                                                                                                                                                                         ', 2)
-(7, 'Pro Angular 9)                                                                                                                                                                                                                                           ', 2)
-(4, 'Java from EPAM)                                                                                                                                                                                                                              ', 4)
-(5, 'Java 9 Dependency Injection)                                                                                                                                                                                                                                ', 5)
-(6, 'Mastering Java 11)                                                                                                                                                                                                                                     ', 7)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                       ', 11)
-(9, 'Angular In Action)                                                                                                                                                                                                                                        ', 4)
-(10, 'Learning Angular)                                                                                                                                                                                                                                          ', 9)
-(4, 'Java from EPAM)                                                                                                                                                                                                                                        ', 4)
-(9, 'Angular In Action)                                                                                                                                                                                                                              ', 4)
-(5, 'Java 9 Dependency Injection)                                                                                                                                                                                                                               ', 5)
-(6, 'Mastering Java 11)                                                                                                                                                                                                                                        ', 7)
-(10, 'Learning Angular)                                                                                                                                                                                                                                      ', 9)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                       ', 11)
-(1, 'Lord of Rings 1)                                                                                                                                                                                                                                       ', 2)
-(3, 'Typescript quickly)                                                                                                                                                                                                                                      ', 2)
-(7, 'Pro Angular 9)                                                                                                                                                                                                                                             ', 2)
-(8, 'Effective Typescript)                                                                                                                                                                                                                                  ', 11)
+(1, 'Lord of Rings 1', 2)
+(3, 'Typescript quickly', 2)
+(7, 'Pro Angular 9', 2)
+(4, 'Java from EPAM', 4)
+(5, 'Java 9 Dependency Injection', 5)
+(6, 'Mastering Java 11', 7)
+(8, 'Effective Typescript', 11)
+(9, 'Angular In Action', 4)
+(10, 'Learning Angular', 9)
+(4, 'Java from EPAM', 4)
+(9, 'Angular In Action', 4)
+(5, 'Java 9 Dependency Injection', 5)
+(6, 'Mastering Java 11', 7)
+(10, 'Learning Angular', 9)
+(8, 'Effective Typescript', 11)
+(1, 'Lord of Rings 1', 2)
+(3, 'Typescript quickly', 2)
+(7, 'Pro Angular 9', 2)
+(8, 'Effective Typescript', 11)
+(1, 'Lord of Rings 1', 2)
+(3, 'Typescript quickly', 2)
+(7, 'Pro Angular 9', 2)
+(4, 'Java from EPAM', 4)
+(5, 'Java 9 Dependency Injection', 5)
+(6, 'Mastering Java 11', 7)
+(8, 'Effective Typescript', 11)
+(9, 'Angular In Action', 4)
+(10, 'Learning Angular', 9)
+(4, 'Java from EPAM', 4)
+(9, 'Angular In Action', 4)
+(5, 'Java 9 Dependency Injection', 5)
+(6, 'Mastering Java 11', 7)
+(10, 'Learning Angular', 9)
+(8, 'Effective Typescript', 11)
+(1, 'Lord of Rings 1', 2)
+(3, 'Typescript quickly', 2)
+(7, 'Pro Angular 9', 2)
+(8, 'Effective Typescript', 11)
 Rows count:  38
 
 Total elapsed time for sync_program: 1.01
@@ -80,44 +80,44 @@ Total elapsed time for sync_program: 1.01
  ```
 Database opened successfully
 -------------------------------
-<Record id=1 name='Lord of Rings 1>                                                                                                                                                                                                                                           ' count=2>
-<Record id=3 name='Typescript quickly>                                                                                                                                                                                                                                        ' count=2>
-<Record id=7 name='Pro Angular 9>                                                                                                                                                                                                                                             ' count=2>
-<Record id=4 name='Java from EPAM>                                                                                                                                                                                                                                            ' count=4>
-<Record id=5 name='Java 9 Dependency Injection>                                                                                                                                                                                                                               ' count=5>
-<Record id=6 name='Mastering Java 11>                                                                                                                                                                                                                                         ' count=7>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
-<Record id=9 name='Angular In Action>                                                                                                                                                                                                                                         ' count=4>
-<Record id=10 name='Learning Angular>                                                                                                                                                                                                                                          ' count=9>
-<Record id=4 name='Java from EPAM>                                                                                                                                                                                                                                            ' count=4>
-<Record id=9 name='Angular In Action>                                                                                                                                                                                                                                         ' count=4>
-<Record id=5 name='Java 9 Dependency Injection>                                                                                                                                                                                                                               ' count=5>
-<Record id=6 name='Mastering Java 11>                                                                                                                                                                                                                                         ' count=7>
-<Record id=10 name='Learning Angular>                                                                                                                                                                                                                                          ' count=9>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
-<Record id=1 name='Lord of Rings 1>                                                                                                                                                                                                                                           ' count=2>
-<Record id=3 name='Typescript quickly>                                                                                                                                                                                                                                        ' count=2>
-<Record id=7 name='Pro Angular 9>                                                                                                                                                                                                                                             ' count=2>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
-<Record id=1 name='Lord of Rings 1>                                                                                                                                                                                                                                           ' count=2>
-<Record id=3 name='Typescript quickly>                                                                                                                                                                                                                                        ' count=2>
-<Record id=7 name='Pro Angular 9>                                                                                                                                                                                                                                             ' count=2>
-<Record id=4 name='Java from EPAM>                                                                                                                                                                                                                                            ' count=4>
-<Record id=5 name='Java 9 Dependency Injection>                                                                                                                                                                                                                               ' count=5>
-<Record id=6 name='Mastering Java 11>                                                                                                                                                                                                                                         ' count=7>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
-<Record id=9 name='Angular In Action>                                                                                                                                                                                                                                         ' count=4>
-<Record id=10 name='Learning Angular>                                                                                                                                                                                                                                          ' count=9>
-<Record id=4 name='Java from EPAM>                                                                                                                                                                                                                                            ' count=4>
-<Record id=9 name='Angular In Action>                                                                                                                                                                                                                                         ' count=4>
-<Record id=5 name='Java 9 Dependency Injection>                                                                                                                                                                                                                               ' count=5>
-<Record id=6 name='Mastering Java 11>                                                                                                                                                                                                                                         ' count=7>
-<Record id=10 name='Learning Angular>                                                                                                                                                                                                                                          ' count=9>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
-<Record id=1 name='Lord of Rings 1>                                                                                                                                                                                                                                           ' count=2>
-<Record id=3 name='Typescript quickly>                                                                                                                                                                                                                                        ' count=2>
-<Record id=7 name='Pro Angular 9>                                                                                                                                                                                                                                             ' count=2>
-<Record id=8 name='Effective Typescript>                                                                                                                                                                                                                                      ' count=11>
+<Record id=1 name='Lord of Rings 1' count=2>
+<Record id=3 name='Typescript quickly' count=2>
+<Record id=7 name='Pro Angular 9' count=2>
+<Record id=4 name='Java from EPAM' count=4>
+<Record id=5 name='Java 9 Dependency Injection' count=5>
+<Record id=6 name='Mastering Java 11' count=7>
+<Record id=8 name='Effective Typescript' count=11>
+<Record id=9 name='Angular In Action' count=4>
+<Record id=10 name='Learning Angular' count=9>
+<Record id=4 name='Java from EPAM' count=4>
+<Record id=9 name='Angular In Action' count=4>
+<Record id=5 name='Java 9 Dependency Injection' count=5>
+<Record id=6 name='Mastering Java 11' count=7>
+<Record id=10 name='Learning Angular' count=9>
+<Record id=8 name='Effective Typescript' count=11>
+<Record id=1 name='Lord of Rings 1' count=2>
+<Record id=3 name='Typescript quickly' count=2>
+<Record id=7 name='Pro Angular 9' count=2>
+<Record id=8 name='Effective Typescript' count=11>
+<Record id=1 name='Lord of Rings 1' count=2>
+<Record id=3 name='Typescript quickly' count=2>
+<Record id=7 name='Pro Angular 9' count=2>
+<Record id=4 name='Java from EPAM' count=4>
+<Record id=5 name='Java 9 Dependency Injection' count=5>
+<Record id=6 name='Mastering Java 11' count=7>
+<Record id=8 name='Effective Typescript' count=11>
+<Record id=9 name='Angular In Action' count=4>
+<Record id=10 name='Learning Angular' count=9>
+<Record id=4 name='Java from EPAM' count=4>
+<Record id=9 name='Angular In Action' count=4>
+<Record id=5 name='Java 9 Dependency Injection' count=5>
+<Record id=6 name='Mastering Java 11' count=7>
+<Record id=10 name='Learning Angular' count=9>
+<Record id=8 name='Effective Typescript' count=11>
+<Record id=1 name='Lord of Rings 1' count=2>
+<Record id=3 name='Typescript quickly' count=2>
+<Record id=7 name='Pro Angular 9' count=2>
+<Record id=8 name='Effective Typescript' count=11>
 Rows count:  38
 
 Total elapsed time for async_program: 1.20
