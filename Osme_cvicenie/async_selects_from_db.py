@@ -5,10 +5,10 @@ import asyncpg
 
 async def connect_to_db():
     conn = await asyncpg.connect(
-        database="d2p2q10a4vljst", user="naoocbcbfcpven",
-        password="57765cd716633d1bb3babd5e7fc017ac" +
-                 "50e4e5f7cf798ac619a9efe8afdc8eaa",
-        host="ec2-54-75-225-52.eu-west-1.compute.amazonaws.com",
+        database="",
+        user="",
+        password="",
+        host="",
         port="5432")
     print("Database opened successfully")
     print("-------------------------------")
